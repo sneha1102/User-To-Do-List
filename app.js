@@ -3,7 +3,7 @@ const bodyparser = require('body-parser');
 const mongoose = require( 'mongoose' );
 const app = express();
 
-const router = require( './Routes/userRoute' );
+const router = require( './Route/userRoute' );
 
 //Routes
 app.use(bodyparser.json())
