@@ -2,7 +2,7 @@
 User api call:-
 
 1. Signup
-2. LOgin
+2. Login
 3. User details updation
 
 Task api call:-
