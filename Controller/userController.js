@@ -2,7 +2,7 @@ const bycrypt = require('bcryptjs')
 const jwt = require( "jsonwebtoken" );
 require( "dotenv" ).config();
 
-const User = require( '../Models/userModel' );
+const User = require( '../Model/userModel' );
 
 //SignUp Controller
 async function signup(req,res) {
